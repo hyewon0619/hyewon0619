@@ -20,18 +20,19 @@
 
 **📊 데이터 분석 · 사내 BI 플랫폼 개발** 
 - [사내 BI 플랫폼](https://github.com/hyewon0619/YK-BIPlatform) — 경영지표 화면 23종 · 백엔드 분석 서비스 20여 종을 기획부터 배포까지 직접 개발
-- **경영 현황 모니터링** — 콜→예약→방문→선임 전환 퍼널 일간/월간 스냅샷,
-  부가가치·취소사유 드릴다운, 최근 12주 추세 비교
+- **지표 표준화** — 15개 부서가 각자 쓰던 지표 정의를 통합해 기존 Grafana 폐지, 정의 대조로 입금 약 36% 누락 발견·정정
+- **경영 현황 모니터링** — 콜→예약→방문→선임 퍼널 일간·주간·월간 스냅샷,
+  평소 대비 이상 지표 상위 3개 자동 표시, "왜?" 원인을 합이 맞는 기여도로 분해
 - **매출·성공보수** — 매출 예측, 온라인/기본 입금액, 성공보수 발생·입금·미청구 현황
 - **사건 운영** — 사건 종결, 별건 수임, 처분권자 현황, 상급심 배당, 장기 미면담 고액사건,
   종결·처분문서 정합성 이상 탐지
 - 기존 Tableau 대시보드를 사내 플랫폼으로 이관 · 데일리 리포트 자동 발송 운영
+- 재무·사내 시스템 데이터 자동 대조 구현 → 데이터 불일치율 95%→3%
 <br/>
 
 **📈 머신러닝 기반 예측 분석**
 - 당월 매출액·성공보수액 예측 모델 개발 (XGBoost·MLP·선형회귀 비교, SHAP 변수 중요도 분석)
 - 의뢰인 사건 이력 기반 별건 수임 추천 시스템 · 잠재 의뢰인 발굴 시스템 개발
-- 재무·사내 시스템 데이터 자동 diff 구현 → 데이터 불일치율 95%→3%
 - 31개 지사 인력 배분 · 마케팅 비용 상관관계 분석 기여
 
 <br/>
@@ -40,7 +41,8 @@
  
 ```
 Language   Python · SQL · R · C · C++ · Java
-AI / ML    LLM Fine-tuning · RAG · NLP · FastAPI · Vector Search · XGBoost · SHAP
+AI / ML    LLM Agent · Tool Calling · RAG · LLM Fine-tuning · NLP · Vector Search · XGBoost · SHAP
+Backend    FastAPI · MySQL · Elasticsearch · React · TypeScript
 Data / BI  Pandas · NumPy · Scikit-learn · Tableau
 Tools      Git · Notion · Jira
 ```
