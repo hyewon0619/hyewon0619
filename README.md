@@ -15,6 +15,8 @@
 - [사내 업무 AI 비서 '애니'](https://github.com/hyewon0619/work-assistant-agent) — 임직원 900여 명 사용, 자연어·음성 질의로 사건 업무 상태 조회·기록 초안 제안, 챙길 일 먼저 알림 
 - [상담 지원 시스템](https://github.com/hyewon0619/consult-system) — 콜 상담 → STT → LLM 정보 추출 → RAG 유사 사례 매칭 → 상담 리포트 자동 생성  
   JSON Schema 제약·Pydantic 검증·폴백 설계로 LLM 비결정적 출력을 제품 품질로 수렴  
+- [AI 리드 발굴·관리 CRM](https://github.com/hyewon0619/ai-lead-crm) — 사건 기록에서 LLM으로 고객의 새 법률 수요 자동 발굴 → 리드·기회·선임 파이프라인 관리  
+  원문 인용 검증 2단계 추출로 정밀도 우선 설계, 재실행에도 중복 없는 병합·사람 수정 보호 (팀 프로젝트 · 기여도 약 60%)
 - 누적 2만 건 법률 문서 익명화·표준화 LLM 파인튜닝 파이프라인 단독 기획·구축
 <br/> 
 
